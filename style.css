@@ -338,11 +338,11 @@ body{
     margin: 0 auto; /* Center the slider horizontally */
 }
 .featured .featured-slider .box{
-    width:25rem;
+    width: 20rem;
     margin: 2rem 0;
     position: relative;
     overflow: hidden;
-    border: var(--border);
+    border: 2px solid;
     text-align: center;
 }
 .featured .featured-slider .box:hover{
@@ -369,7 +369,7 @@ body{
 .featured .featured-slider .box:hover .icons {
     transform: translateY(0%);
 }
-.featured .featured-sl#ider .box .icons a{
+.featured .featured-slider .box .icons a{
     color:var(--black);
     font-size: 1.3rem;
     padding: 1.5rem;
@@ -397,7 +397,6 @@ body{
     text-decoration: line-through;
 }
 
-
 .swiper-button-next,
 .swiper-button-prev{
     border:var(--border-hover);
@@ -424,7 +423,6 @@ body{
     background-position: center;
     background-attachment: fixed;
 }
-
 .newsletter form{
     max-width: 45rem;
     margin-left: auto;
@@ -449,13 +447,17 @@ body{
     text-transform: none;
 }
 
+.arrivals-slider {
+    max-width: 300px; /* Adjust the maximum width as desired */
+    margin: 0 auto; /* Center the slider horizontally */
+}
 .arrivals .arrivals-slider .box{
     display: flex;
     width: 30rem;
     align-items: center;
     gap: 1.1rem;
     padding: 2rem 1rem;
-    border: var(--border);
+    border: 2px solid;
     margin: 1rem 0;
 
 }
@@ -525,9 +527,13 @@ body{
     font-size: 1.4rem;
     line-height: 2;
 }
+.reviews-slider {
+    max-width: 300px; /* Adjust the maximum width as desired */
+    margin: 0 auto; /* Center the slider horizontally */
+}
 .reviews .reviews-slider .box{
     width:30rem;
-    border: var(--border);
+    border: 2px solid;
     padding: 2rem;
     text-align: center;
     margin:2rem 0;
@@ -551,11 +557,14 @@ body{
     font-size: 1.7rem;
     color: var(--green);
 }
-
+.blogs-slider {
+    max-width: 300px; /* Adjust the maximum width as desired */
+    margin: 0 auto; /* Center the slider horizontally */
+}
 .blogs .blogs-slider .box{
     margin:2rem 0;
     width:30rem;
-    border:var(--border);
+    border: 2px solid;
 
 }
 .blogs .blogs-slider .box:hover{
@@ -750,6 +759,5 @@ body{
         font-size: 50%;
     }
 }
-
 
 
