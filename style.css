@@ -333,7 +333,10 @@ body{
     font-size: 1.4rem;
     color: var(--light-color);
 }
-
+.featured-slider {
+    max-width: 300px; /* Adjust the maximum width as desired */
+    margin: 0 auto; /* Center the slider horizontally */
+}
 .featured .featured-slider .box{
     width:25rem;
     margin: 2rem 0;
